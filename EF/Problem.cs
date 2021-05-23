@@ -6,7 +6,7 @@ namespace EF
 {
     public class Problem:Content
     { 
-        public int? Reward { get; set; }
+        public int? Reward { get; set; } 
         public ProblemStatus Status { get; set; }
 }
 }
