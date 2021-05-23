@@ -5,7 +5,7 @@ using System.Text;
 
 namespace EF
 {
-    public  class ProblemRepository
+    public  class RepositoryProblem
     {
         SqlDbContext context = new SqlDbContext();
         public  List<Problem> GetBy(IList<ProblemStatus> exclude, bool hasReward, bool descByPublishTime) 

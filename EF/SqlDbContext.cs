@@ -9,6 +9,7 @@ namespace EF
     {
         public DbSet<User> Users { set; get; }
         public DbSet<Problem> Problems { set; get; }
+        public DbSet<Message> Messages { set; get; }
 
 
         

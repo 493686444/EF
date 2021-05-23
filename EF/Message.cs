@@ -9,5 +9,7 @@ namespace EF
         public int Id { get; set; }
         public string Titile { get; set; }
         public string Body { get; set; }
+        public DateTime CreateDateTime { get; set; }
+        public bool Readed { get; set; }
     }
 }
