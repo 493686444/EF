@@ -11,7 +11,7 @@ namespace EF
         public  List<Problem> GetBy(IList<ProblemStatus> exclude, bool hasReward, bool descByPublishTime) 
         {
             List<Problem> result = context.Problems.ToList();
-            
+             
             if (hasReward)
             {
                 result = result.Where(p => p.Reward != null).ToList();
