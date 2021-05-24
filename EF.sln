@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF", "EF\EF.csproj", "{BE60F57A-9D57-4879-8CAA-C10A8FD57D0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF", "EF\EF.csproj", "{BE60F57A-9D57-4879-8CAA-C10A8FD57D0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF6Sample", "EF6Sample\EF6Sample.csproj", "{8DBF9802-47A9-4D63-9EE7-99F9820B4CF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BE60F57A-9D57-4879-8CAA-C10A8FD57D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE60F57A-9D57-4879-8CAA-C10A8FD57D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE60F57A-9D57-4879-8CAA-C10A8FD57D0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DBF9802-47A9-4D63-9EE7-99F9820B4CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DBF9802-47A9-4D63-9EE7-99F9820B4CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DBF9802-47A9-4D63-9EE7-99F9820B4CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DBF9802-47A9-4D63-9EE7-99F9820B4CF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
