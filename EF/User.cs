@@ -9,5 +9,6 @@ namespace EF
         public int Id { get; set; } 
         public string Name { get; set; }
         public string Password { get; set; }
+        public int BBMoney { get; set; }
     }
 }
